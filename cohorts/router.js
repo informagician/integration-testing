@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 router.get('/', (req,res) => {
-    res.json({router:'Cohorts'})
+    res.status(200).json({router:'Cohorts'})
 })
 
 module.exports = router;
